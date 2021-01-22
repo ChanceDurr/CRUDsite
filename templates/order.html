@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}Order{% endblock %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+<div class="container border">
+    <div class="row align-items-start">
+        <div class="col-9 border text-center">
+            
+            <div class="bg-sauces">
+                <h2>Sauces</h2>
+                <div id="sauce_choices">
+                </div>
+            </div>
+            
+            <div class="bg-cheeses">
+                <h2>Cheeses</h2>
+                <div id="cheese_choices">
+                </div>
+            </div>
+
+            <div class="bg-meats">
+                <h2 class="title">Meats</h2>
+                <div id="meat_choices" class="mx-auto">
+                </div>
+            </div>
+
+            <div class="bg-vegetables">
+                <h2>Vegetables</h2>
+                <div id="vegetable_choices" class="mx-auto">
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-3 text-center">
+            <h1>Total</h1>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/order.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/order.css') }}"></script>
+{% endblock %}
