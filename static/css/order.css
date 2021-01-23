@@ -2,18 +2,34 @@
     text-transform: capitalize;
 }
 
+.meat-topping:checked {
+    text-transform: capitalize;
+    background-color: red;
+}
 .bg-sauces {
     background-color: rgba(255, 4, 4, 0.10);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .bg-cheeses {
     background-color: rgba(255, 251, 4, 0.10);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .bg-meats {
     background-color: rgba(255, 84, 4, 0.10);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .bg-vegetables {
     background-color: rgba(12, 255, 4, 0.10);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

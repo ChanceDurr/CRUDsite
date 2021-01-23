@@ -10,34 +10,55 @@
 <div class="container border">
     <div class="row align-items-start">
         <div class="col-9 border text-center">
-            
-            <div class="bg-sauces">
-                <h2>Sauces</h2>
-                <div id="sauce_choices">
+            <form action="">
+                <div class="bg-sauces">
+                    <h2>Sauces</h2>
+                    <div id="sauce_choices">
+                    </div>
                 </div>
-            </div>
-            
-            <div class="bg-cheeses">
-                <h2>Cheeses</h2>
-                <div id="cheese_choices">
+                
+                <div class="bg-cheeses">
+                    <h2>Cheeses</h2>
+                    <div id="cheese_choices" class="input_group">
+                    </div>
                 </div>
-            </div>
 
-            <div class="bg-meats">
-                <h2 class="title">Meats</h2>
-                <div id="meat_choices" class="mx-auto">
+                <div class="bg-meats">
+                    <h2 class="title">Meats</h2>
+                    <div id="meat_choices" class="mx-auto">
+                    </div>
                 </div>
-            </div>
 
-            <div class="bg-vegetables">
-                <h2>Vegetables</h2>
-                <div id="vegetable_choices" class="mx-auto">
+                <div class="bg-vegetables">
+                    <h2>Vegetables</h2>
+                    <div id="vegetable_choices" class="mx-auto">
+                    </div>
                 </div>
-            </div>
-            
+            </form>
         </div>
         <div class="col-3 text-center">
-            <h1>Total</h1>
+            <div class="row">
+                <h2>Total</h2>
+            </div>
+            <div class="row text-center">
+                <h1>
+                    <span class="badge bg-success bg=lg" style="width: auto;" id="pizzaTotal"></span>
+                </h1>
+            </div>
+            <div class="row">
+                <div class="col" id="pizzaList">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-start border">
+        <div class="col-9 border">
+            <div class="container align-items-center">
+                <button class="btn btn-primary" id="savePizza">
+                    ree
+                </button>
+            </div>
         </div>
     </div>
 </div>
